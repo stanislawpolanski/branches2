@@ -10,8 +10,11 @@ namespace branches2
     {
         static void Main(string[] args)
         {
-            //this is master branch
-            Console.WriteLine("Hello World!");
+            //this is tree branch
+            Tree t = new Tree();
+            t.Color = "brown";
+
+            Console.WriteLine(t.Color);
             Console.ReadKey();
         }
     }
