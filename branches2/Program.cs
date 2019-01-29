@@ -10,7 +10,10 @@ namespace branches2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Apple a = new Apple();
+            a.color = "red";
+
+            Console.WriteLine(a.color);
             Console.ReadKey();
         }
     }
