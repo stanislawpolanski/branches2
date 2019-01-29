@@ -10,6 +10,7 @@ namespace branches2
     {
         static void Main(string[] args)
         {
+            //this is master branch
             Console.WriteLine("Hello World!");
             Console.ReadKey();
         }
